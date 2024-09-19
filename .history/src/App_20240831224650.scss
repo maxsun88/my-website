@@ -1,0 +1,10 @@
+@import "_variables";
+
+.page-content{
+    max-width: 1200px; /* Maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 0 20px;
+    @media (max-width: $breakpoint-medium){
+        padding: 30px;
+    }
+}

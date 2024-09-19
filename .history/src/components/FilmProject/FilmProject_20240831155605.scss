@@ -1,0 +1,13 @@
+.film-project-container{
+    text-align: end;
+    white-space: pre-wrap;
+    .thumbnail-image-wrapper{
+        width: ;
+        border-radius: 15px;
+        overflow: hidden; /* Ensures the video is clipped to the rounded corners */
+        width: fit-content; /* Adjusts the wrapper to the size of the video */
+    }
+}
+.film-project-container + .film-project-container {
+    margin-top: 20px;
+}

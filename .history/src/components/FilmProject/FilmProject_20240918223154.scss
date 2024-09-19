@@ -1,0 +1,24 @@
+.film-project-container{
+    white-space: pre-wrap;
+    text-align: end;
+    .thumbnail-image-wrapper{
+        @media (max-width: $breakpoint-medium){
+            
+        }
+        height: 170px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Ensures the image is clipped to the rounded corners */
+        
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+.film-project-container + .film-project-container {
+    margin-top: 20px;
+}

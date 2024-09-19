@@ -1,0 +1,11 @@
+.film-project-container{
+    white-space: pre-wrap;
+    .thumbnail-image-wrapper{
+        width: 80%;
+        border-radius: 15px;
+        overflow: hidden; /* Ensures the video is clipped to the rounded corners */
+    }
+}
+.film-project-container + .film-project-container {
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+.head-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // /* Centers children vertically */
+    // align-items: center;
+    // /* Centers children horizontally */
+}
+
+.headline {
+    padding: 250px 0 100px 0;
+    // text-align: center;
+}

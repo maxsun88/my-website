@@ -1,0 +1,16 @@
+@import '../../../variables';
+.nav-bar{
+    height: 100px;
+    @media (max-width: $breakpoint-medium){
+        height: 80px;
+    }
+
+    padding: 0 2rem;
+    .logo-text{
+        cursor: pointer;
+        @media (max-width: $breakpoint-medium){
+            font-size: 1.25rem;
+        }
+        font-size: 1.5rem;
+    }
+}

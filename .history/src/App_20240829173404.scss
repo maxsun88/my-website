@@ -1,0 +1,36 @@
+@import "_variables";
+.page-content{
+    max-width: 1200px; /* Maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+}
+
+.head-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .blank-space{
+        padding-bottom: 150px;
+    }
+
+    .headline {
+        position: sticky;
+        top: 50px;
+        padding: 100px 0;
+
+        @media ($breakpoint-medium){
+
+        }
+    }
+
+    .video-wrapper {
+        // width: 100%; /* Allows the wrapper to be as wide as its parent */
+        // max-width: 100%; /* Restricts the wrapper to the width of the parent */        
+        border-radius: 15px;
+        overflow: hidden; /* Ensures the video is clipped to the rounded corners */
+        width: fit-content; /* Adjusts the wrapper to the size of the video */
+        // transition: transform 0.1s ease-in-out;
+    }
+}
+

@@ -1,0 +1,29 @@
+.head-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .content{
+        max-width: 1200px; /* Maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    }
+
+    .blank-space{
+        padding-bottom: 150px;
+    }
+
+    .headline {
+        position: sticky;
+        top: 50px;
+        padding: 100px 0;
+    }
+
+    .video-wrapper {
+        border-radius: 15px;
+        overflow: hidden; /* Ensures the video is clipped to the rounded corners */
+        width: fit-content; /* Adjusts the wrapper to the size of the video */
+        // transition: transform 0.1s ease-in-out;
+    }
+}
+
