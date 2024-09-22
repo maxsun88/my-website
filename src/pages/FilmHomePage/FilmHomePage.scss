@@ -48,14 +48,14 @@
     .projects-intro{
         @media (min-width: $breakpoint-medium){
             position: sticky;
-            top: 20px;
+            top: 40px;
             height: fit-content;
             margin-bottom: 20px;
         }
     }
 
     .projects-display{ 
-        max-width: 600px;
+        max-width: 530px;
         h3{
             margin-bottom: 5px !important;
             line-height: 140%;
