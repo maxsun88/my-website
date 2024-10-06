@@ -1,0 +1,13 @@
+.film-journey{
+    max-width: 800px;
+    h2{
+        text-align: center;
+    }
+    h2, h3{
+        margin-bottom: 10px;
+    }
+    p{
+        // word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+}

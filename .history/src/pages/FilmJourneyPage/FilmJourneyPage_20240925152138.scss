@@ -1,0 +1,58 @@
+@import "../../variables";
+
+.film-journey{
+    max-width: 800px;
+    h2{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    h3{
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+    p{
+        white-space: pre-wrap;
+        line-height: 150% !important;
+    }
+    .zhua-jiu-imgs{
+        max-width: 500px;
+        width: 80%;
+        margin: 0 auto 10px auto;
+        @media screen and (max-width: $breakpoint-medium){
+            width: 100%;
+        }
+        img{
+            flex: 1;
+            max-width: 50%;
+            object-fit: cover;
+        }
+    }
+    .image-discription{
+        text-align: center;
+        span{
+            max-width: 500px;
+        }
+    }
+    .journey-image{
+        max-width: 60%;
+        height: auto;
+        margin: 30px auto;
+        @media screen and (max-width: $breakpoint-medium){
+            max-width: 100%;
+        }
+    }
+
+    .image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg{
+        width: 20px;
+    }
+
+    .btn, [type=button], [type=reset], [type=submit], button{
+        background-color: transparent;
+        border-color: transparent;
+
+        :hover{
+            background-color: transparent;
+        border-color: transparent;
+        }
+    }
+}
