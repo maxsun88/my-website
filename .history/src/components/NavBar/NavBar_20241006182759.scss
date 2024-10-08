@@ -1,0 +1,27 @@
+@import '../../variables';
+.nav-bar{
+    position: sticky;
+    top: 0;
+    background-color: ;
+    height: 60px;
+    padding: 0 2rem;
+    @media (max-width: $breakpoint-medium){
+        height: 80px;
+    }
+    a{
+        color: $text-primary !important;
+        font-weight: normal !important;
+    }
+    .logo-text{
+        cursor: pointer;
+        @media (max-width: $breakpoint-medium){
+            font-size: 1.25rem;
+        }
+        font-size: 1.3rem;
+    }
+    img{
+        padding-top: 5px;
+        width: 50px;
+    }
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
