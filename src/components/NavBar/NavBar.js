@@ -36,7 +36,7 @@ export const NavBar = () => {
         <Link className='logo-text' to='./'>
           Max Sun
         </Link>
-        <img className='ml-1' alt='logo image' src='/images/sun-logo.jpg' />
+        <img className='ml-1' alt='branding logo' src='/images/sun-logo.jpg' />
       </div>
       <Link to='/journey' className='secondary-links'>
         Journey
