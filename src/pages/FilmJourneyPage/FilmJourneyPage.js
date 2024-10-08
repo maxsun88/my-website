@@ -30,7 +30,7 @@ export const FilmJourneyPage = () => {
         {!isMobileIndexExpanded &&
           <div className="index-icon u-none-md u-flex u-items-center u-justify-center"
             onClick={() => setIsMobileIndexExpanded(true)}>
-            <img src="/images/icons/index-icon.png"></img>
+            <img src="/images/icons/index-icon.png" alt="open content index"></img>
           </div>
         }
         {isMobileIndexExpanded &&
@@ -38,7 +38,7 @@ export const FilmJourneyPage = () => {
             <div className="overlay" onClick={() => setIsMobileIndexExpanded(false)}></div>
             <div className="cross-icon u-none-md u-flex u-items-center u-justify-center"
               onClick={() => setIsMobileIndexExpanded(false)}>
-              <img src="/images/icons/cross-icon.png"></img>
+              <img src="/images/icons/cross-icon.png" alt="close content index"></img>
             </div>
           </>
         }
