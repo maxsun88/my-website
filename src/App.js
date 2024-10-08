@@ -10,6 +10,7 @@ import FJSecondShortFilm from './pages/FilmJourneyPage/second-short-film.mdx'
 import FJToronto from './pages/FilmJourneyPage/toronto.mdx'
 import FJForPetesSake from './pages/FilmJourneyPage/for-petes-sake.mdx'
 import FJMusical from './pages/FilmJourneyPage/musical.mdx'
+import { Footer } from './components/Footer/Footer';
 
 export const RootLayout = () => {
   return (
@@ -19,6 +20,7 @@ export const RootLayout = () => {
       <main>
         <Outlet /> {/* This is where child routes will be rendered */}
       </main>
+      <Footer />
     </div>
   )
 }

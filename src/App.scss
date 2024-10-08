@@ -3,5 +3,8 @@
 .page-content{
     max-width: 1200px; /* Maximum width of the content */
     margin: 0 auto; /* Centers the content horizontally */
-    padding: 0 20px;
+    padding: 100px 20px 0 20px;
+    @media screen and (max-width: $breakpoint-medium) {
+        padding-top: 80px;
+    }
 }

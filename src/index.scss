@@ -11,9 +11,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+
 @import '_variables';
 
 body {
+  overflow-x: hidden; /* Prevent horizontal scrolling if the video overflows */
+  color: $text-primary;
+  background-color: $background-grey;
   margin: 0;
   /* TODO: need to modify this */
   font-family: "Inter", sans-serif !important;
@@ -28,14 +33,26 @@ body {
   font-style: normal;
 }
 
+.radley-regular {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.radley-regular-italic {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 h1,h2,h3,h4,h5,h6{
   margin: 0 !important;
 }
 
 h1{
-  font-size: 4rem !important;
+  font-size: 3rem !important;
   @media (max-width: $breakpoint-medium) {
-    font-size: 1.75rem !important;
+    font-size: 1.6rem !important;
   }
 }
 
