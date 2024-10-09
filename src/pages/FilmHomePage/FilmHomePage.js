@@ -9,14 +9,15 @@ export const FilmHomePage = () => {
         <>
             <div className='video-wrapper'>
                 <video autoPlay muted loop>
-                    <source src={`${process.env.PUBLIC_URL}/HeaderShowreel.mov`} type="video/mp4" />
+                    <source src={`${process.env.PUBLIC_URL}/2024 Quick Reel For Website.mp4`} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div className='page-content'>
-                {/* <h1 className='u-text-center py-12'> Film Director & Producer </h1> */}
-                <p className='radley-regular header-text u-text-center'><i>Hello,</i> I'm Max</p>
-                <h3 className='u-text-center'>A filmmaker, director & producer.</h3>
+                <div className='py-10-md py-5'>
+                    <p className='radley-regular header-text u-text-center'><i>Hello,</i> I'm Max</p>
+                    <h3 className='u-text-center'>A filmmaker, director & producer.</h3>
+                </div>
                 <section className='projects-section mt-8 row'>
                     <div className='projects-intro col-md-4 mb-2'>
                         <h2>Projects</h2>
