@@ -8,7 +8,14 @@ export const FilmHomePage = () => {
     return (
         <>
             <div className='video-wrapper'>
-                <video autoPlay muted loop defaultMuted playsinline oncontextmenu="return false;" preload="auto">
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    webkit-playsinline
+                    onContextMenu={(e) => e.preventDefault()}
+                    preload="auto">
                     <source src={`${process.env.PUBLIC_URL}/2024 Quick Reel For Website.mp4`} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
