@@ -3,6 +3,7 @@ import { Button } from '../../components/Button/Button';
 import { FilmProject } from '../../components/FilmProject/FilmProject';
 import "./FilmHomePage.scss"
 import { Link } from 'react-router-dom';
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 
 export const FilmHomePage = () => {
     return (
@@ -19,6 +20,10 @@ export const FilmHomePage = () => {
                     <source src={`${process.env.PUBLIC_URL}/2024 Quick Reel For Website.mp4`} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
+                <div className='scroll-indicator-container u-center u-flex-column pb-2'>
+                    <div>SCROLL DOWN FOR MORE</div>
+                    <MdOutlineKeyboardDoubleArrowDown className='down-arrow-icon' />
+                </div>
             </div>
             <div className='page-content'>
                 <div className='py-10-md py-5'>
@@ -42,6 +47,29 @@ export const FilmHomePage = () => {
                         </Link>
                     </div>
                     <div className='projects-display ml-auto mt-8 mt-2-md col-md-8'>
+                        <FilmProject
+                            img="TUS_thumbnail.png"
+                            tagline={"WWI Short Film, Shot on Arri Alexa Mini \n(Post Production)"}
+                            role="Lead Producer, 1st AD"
+                            lengthAndYear="12 minute, 2024"
+                            url='the-unknown-soldier'
+                        ></FilmProject>
+                        <FilmProject
+                            img="TheUnusualSuspect_thumbnail.png"
+                            tagline={"48HFP Ottawa: Best Acting Ensemble & Best Supporting Peformance 🏆\n"}
+                            role="Director, Casting Director, Editor"
+                            lengthAndYear="5 min, 2024"
+                            noPage={true}
+                            redirectLink="https://drive.google.com/file/d/1dSIMqTPLa6q_861QV_i8kf5vdBJ5bG_y/view"
+                        ></FilmProject>
+                        <FilmProject
+                            img="STM_thumbnail.png"
+                            tagline={"Most courageous slice-of-life film."}
+                            role="Producer, 1st AD"
+                            lengthAndYear="7 min, 2024"
+                            noPage={true}
+                            redirectLink="https://drive.google.com/file/d/1mZ2GaGCQYtBUo5DMB7bAtLcX9Yn9XwWE/view?usp=sharing"
+                        ></FilmProject>
                         <FilmProject
                             img="PEP_thumbnail.png"
                             tagline={"Sci-fi 48 Hour Film Project Finalist 🏆\nBest Director Nomination 🏅"}

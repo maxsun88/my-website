@@ -1,4 +1,12 @@
 export const projectData = {
+    'the-unknown-soldier': {
+        title: "The Unknown Soldier",
+        role: "Lead Producer, 1st AD",
+        lengthAndYear:"12 min, 2025",
+        // videoLink: "https://youtu.be/qBHwhgx487g",
+        intro: "This page is still under construction. More info will follow!",
+        storyUrl: ''
+    },
     'ivd-ivw': {
         title: "I've Been Dreaming, \nI've Been Working",
         role: "Lead Producer",

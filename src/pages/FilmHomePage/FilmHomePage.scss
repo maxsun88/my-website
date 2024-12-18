@@ -14,16 +14,20 @@
     width: 100vw;
     /* Ensures the wrapper spans the entire viewport width */
     height: 100vh;
-    @media screen and (max-width: $breakpoint-medium) { 
+
+    @media screen and (max-width: $breakpoint-medium) {
         height: fit-content;
     }
+
     /* Optional: Sets wrapper height to viewport height */
     background-color: black;
 
     video {
         @media screen and (max-width: $breakpoint-medium) {
-            width: 100%; /* Set width to auto to maintain aspect ratio */
-            object-fit: cover; /* Ensures the video fills the container */
+            width: 100%;
+            /* Set width to auto to maintain aspect ratio */
+            object-fit: cover;
+            /* Ensures the video fills the container */
         }
 
         @media screen and (min-width: $breakpoint-medium) {
@@ -33,11 +37,42 @@
             /* Keeps the aspect ratio intact */
         }
     }
+
+    @keyframes colorPulse {
+        0%,
+        100% {
+            color: $indicator-white;
+            /* Original color */
+            opacity: 0.1;
+        }
+
+        50% {
+            color: $indicator-white;;
+            /* Lighter color */
+            opacity: 0.5;
+            /* Slightly faded */
+        }
+    }
+
+    .scroll-indicator-container {
+        position: absolute;
+        bottom: 0;
+        font-size: $fontsize-small;
+        animation: colorPulse 8s infinite;
+
+        /* Animation with a 2-second cycle */
+        .down-arrow-icon {
+            transform: scaleX(2.5);
+            /* Stretch it horizontally */
+        }
+    }
+
 }
 
-.header-text{
+.header-text {
     font-size: 5rem !important;
-    @media  screen and (max-width: $breakpoint-medium) {
+
+    @media screen and (max-width: $breakpoint-medium) {
         font-size: 3rem !important;
     }
 }
@@ -56,7 +91,7 @@
             margin-bottom: 20px;
             position: sticky;
             top: 120px;
-            
+
         }
     }
 

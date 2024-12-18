@@ -17,17 +17,19 @@ export const RootLayout = () => {
     <div>
       <ScrollRestoration />
       <NavBar />
-      <main>
-        <Outlet /> {/* This is where child routes will be rendered */}
-      </main>
-      <Footer />
+      <div className='content-footer-container'>
+        <main className='page-content-container'>
+          <Outlet /> {/* This is where child routes will be rendered */}
+        </main>
+        <Footer />
+      </div>
     </div>
   )
 }
 
 const router = createBrowserRouter([
   {
-  path: "/", // Root route
+    path: "/", // Root route
     element: <RootLayout />, // This is where NavBar and Footer are rendered
     children: [
       {
