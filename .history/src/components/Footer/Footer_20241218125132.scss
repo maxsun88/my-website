@@ -1,0 +1,18 @@
+@import '../../_variables';
+
+.my-footer{
+    height: 20vh;
+    position: absolute;
+    
+    background-color: $background-grey;
+    a{
+        color: black !important
+    }
+    svg{
+        width: 30px;
+        @media (max-width: $breakpoint-medium){
+            width: 25px;
+        }
+        margin-right: 10px;
+    }
+}
