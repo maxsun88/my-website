@@ -3,8 +3,8 @@ export const projectData = {
         title: "The Unknown Soldier",
         role: "Lead Producer, 1st AD",
         lengthAndYear:"12 min, 2025",
-        // videoLink: "https://youtu.be/qBHwhgx487g",
-        intro: "This page is still under construction. More info will follow!",
+        videoLink: "https://www.youtube.com/watch?v=QsNFh94cYjE&t=1s",
+        intro: "This is definitely the most complex project I have done so far. Despite the immense pressure and many seemly unsolvable hurdles coming along, I'm so proud we made the first half of the film done with just 3 weeks preproduction!",
         storyUrl: ''
     },
     'ivd-ivw': {

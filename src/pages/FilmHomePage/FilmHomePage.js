@@ -80,7 +80,7 @@ export const FilmHomePage = () => {
                         ></FilmProject>
                         <FilmProject
                             img="IVDIVW_thumbnail.png"
-                            tagline={"48 Hour Film Project Toronto 2023 - \nAudience Choice Award 🏆 \nFinalist - top 15 / 108 teams 🏆 "}
+                            tagline={"A Musical Made in 48 Hours! 48HFP Toronto 2023 - \nAudience Choice Award 🏆 \nFinalist - top 15 / 108 teams 🏆 "}
                             role="Lead Producer"
                             lengthAndYear="7 min, 2023"
                             url='ivd-ivw'
