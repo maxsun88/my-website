@@ -80,7 +80,7 @@ export const FilmHomePage = () => {
                         ></FilmProject>
                         <FilmProject
                             img="IVDIVW_thumbnail.png"
-                            tagline={"A Musical Made in 48 Hours! 48HFP Toronto 2023 - \nAudience Choice Award 🏆 \nFinalist - top 15 / 108 teams 🏆 "}
+                            tagline={"A Musical Made in 48 Hours! 48HFP/////// Toronto 2023 - \nAudience Choice Award 🏆 \nFinalist - top 15 / 108 teams 🏆 "}
                             role="Lead Producer"
                             lengthAndYear="7 min, 2023"
                             url='ivd-ivw'
@@ -88,7 +88,7 @@ export const FilmHomePage = () => {
                         <FilmProject
                             img="ForPetesSake_thumbnail.png"
                             tagline={"Based on a touching true story,\n BEST ADAPTED SCREENPLAY - LA INDIE SHORT FEST🏆"}
-                            role="Director, Producer, Writer"
+                            role="Director, Producer"
                             lengthAndYear="8 min, 2023"
                             url="for-petes-sake"
                         ></FilmProject>

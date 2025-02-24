@@ -88,7 +88,7 @@ export const FilmHomePage = () => {
                         <FilmProject
                             img="ForPetesSake_thumbnail.png"
                             tagline={"Based on a touching true story,\n BEST ADAPTED SCREENPLAY - LA INDIE SHORT FEST🏆"}
-                            role="Director, Producer, Writer"
+                            role="Director, Producer"
                             lengthAndYear="8 min, 2023"
                             url="for-petes-sake"
                         ></FilmProject>
