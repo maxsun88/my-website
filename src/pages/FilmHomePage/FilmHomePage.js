@@ -20,7 +20,7 @@ export const FilmHomePage = () => {
                     <source src={`${process.env.PUBLIC_URL}/2024 Quick Reel For Website.mp4`} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div className='u-none u-block-md scroll-indicator-container u-center u-flex-column pb-2'>
+                <div className='u-none u-flex-md scroll-indicator-container u-center u-flex-column pb-2'>
                     <div>SCROLL DOWN FOR MORE</div>
                     <MdOutlineKeyboardDoubleArrowDown className='down-arrow-icon' />
                 </div>
