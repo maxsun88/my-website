@@ -43,8 +43,8 @@ export const FilmHomePage = () => {
             <p>
               The projects listed here showcase my growth as a filmmaker. <br />
               <br />
-              Filmmaking taught me so much. Looking back, the lessons I learnt -
-              like humility, leadership and many more - are so much more
+              Filmmaking taught me so much. Looking back, the lessons I learned
+              - like humility, leadership and many more - are so much more
               important than the craft itself. <br />
               <br />
               You can read some stories that happened behind the scenes here ↓.
@@ -90,7 +90,7 @@ export const FilmHomePage = () => {
               role="Director, Producer"
               lengthAndYear="7 min, 2024"
               noPage={true}
-              redirectLink="https://app.frame.io/reviews/4e67aaee-abfb-40f1-937c-62fab0567efa/ea51fa50-d458-42f8-a75e-d7e6cc6a2ef6"
+              redirectLink="https://drive.google.com/file/d/1QEpmFaCkYKLK5NepvMyjzpq9S-VAz6UC/view?usp=drive_link"
             ></FilmProject>
             <FilmProject
               img="IVDIVW_thumbnail.png"
